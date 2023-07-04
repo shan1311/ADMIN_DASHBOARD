@@ -2,7 +2,7 @@ import Lottie from 'lottie-react';
 import Clock from './Clock.json';
 import Success from './wired-lineal-648-victory-success.json';
 import BarChart  from './wired-lineal-153-bar-chart-growth.json';
-import Avatar from './wired-lineal-21-avatar.json';
+import Avatar from './avatar-looking-around.json';
 import { Link } from 'react-scroll';
  
 

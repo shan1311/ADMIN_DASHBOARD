@@ -1,4 +1,4 @@
-  .page
+  .login-page
    {
     height: 100vh;
     width: 100%;  
@@ -36,8 +36,10 @@
      background-repeat: no-repeat;
      cursor: pointer;
    }
+  
    .google
    {
+    background-image: url("newuser.jpeg");
     cursor: pointer;
    }
    .google:focus
@@ -82,5 +84,28 @@
    {
     position: relative;
     bottom: -2em;
+   }
+   .link
+   {
+    text-decoration: none;
+   }
+   .Signup-link
+   {
+    cursor: pointer;
+    height: 3em;
+    width: 175px;
+    background-color:   #5bbeff;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+    border: none;
+   }
+   .Signup-link:hover
+   {
+    transform: scale(1.25);
    }
    
